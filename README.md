@@ -1,10 +1,12 @@
 # Show warning before expiry date system
 
+## Easy Commerce
+
 https://codecanyon.net/item/advanced-inventory-management-apps-using-aspnet-core-blazor/43575514
 
-Easy Commerce: https://easycommerce.tolumuyiwaafolabi.com.ng/
+https://easycommerce.tolumuyiwaafolabi.com.ng/
 
-Theo dõi | quản lý ngày hết hạn của hàng hóa | sản phẩm
+## Theo dõi | quản lý ngày hết hạn của hàng hóa | sản phẩm
 
 https://viindoo.com/documentation/17.0/vi/applications/supply-chain/inventory/warehouse-management/lots-serial-numbers/product-expiration-dates.html
 
