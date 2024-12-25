@@ -1,5 +1,9 @@
 # Show warning before expiry date system
 
+https://codecanyon.net/item/advanced-inventory-management-apps-using-aspnet-core-blazor/43575514
+
+Easy Commerce: https://easycommerce.tolumuyiwaafolabi.com.ng/
+
 Theo dõi | quản lý ngày hết hạn của hàng hóa | sản phẩm
 
 https://viindoo.com/documentation/17.0/vi/applications/supply-chain/inventory/warehouse-management/lots-serial-numbers/product-expiration-dates.html
@@ -20,9 +24,13 @@ CREATE TABLE [dbo].[Medicine]
     [Price] [nvarchar](50) NULL
 )
 
-SELECT Item_Code, Item_Expiry_Date, Price FROM [dbo].[Medicine] WHERE Item_Expiry_Date BETWEEN DATEADD(DAY, -30, GETDATE()) and GETDATE()
+SELECT Item_Code, Item_Expiry_Date, Price
+FROM [dbo].[Medicine]
+WHERE Item_Expiry_Date BETWEEN DATEADD(DAY, -30, GETDATE()) and GETDATE()
 
-SELECT Item_Code, Item_Expiry_Date, Price FROM [dbo].[Medicine] WHERE Item_Expiry_Date < DATEADD(month, 2, GETDATE());
+SELECT Item_Code, Item_Expiry_Date, Price
+FROM [dbo].[Medicine]
+WHERE Item_Expiry_Date < DATEADD(month, 2, GETDATE());
 ```
 
 https://asp-blogs.azurewebsites.net/stevewellens/ah-ah-ah-ah-staying-alive-staying-alive
